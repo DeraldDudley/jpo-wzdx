@@ -50,7 +50,7 @@
 	      ]]
   },
       "geometry": {
-        "type": "LineString",
+        "type": "MultiPoint",
         "coordinates": [
           [
             -122.73389875888823,
