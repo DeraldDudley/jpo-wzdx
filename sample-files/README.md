@@ -1,5 +1,5 @@
 # Sample Files
-This directory contains sample XML and JSON feeds as well as an XML Schema. 
+This directory contains sample GeoJSON feeds as well as an XML Schema. 
 
 ## Evolving XML schema and GeoJSON examples 
 The following un-versioned files are intended to be updated with any relevant changes to the specification and represent the most current version, whether in progress or released.
@@ -13,10 +13,11 @@ Sample feeds and schema can also be specific to a release of the specification. 
 
 ### Version 2.0 Examples and Schema
 In the `v1.0` directory, find the following sample files:
-* [CaltTrans Example.xml](/create-feed/examples/caltrans.geojson)
-* [iCone Example.json](/create-feed/examples/icone.geojson)
-* [MassDot Example.json](/create-feed/examples/massdot.geojson)
-* [WZDx_Specification Schema.xsd](/sample-files/xml-schema.xsd)
+* [MultiPoint GeoJSON Example](/sample-files/v2.0/MultiPoint_Sample.geojson)
+* [LineString GeoJSON Example](/sample-files/v2.0/LineString_Sample.geojson)
+* [MultiPoint GeoJSON Template](/sample-files/v2.0/Empty_MultiPoint_Template.geojson)
+* [LineString GeoJSON Template](/sample-files/v2.0/Empty_LineString_Template.geojson)
+* [WZDx_Specification Schema.xsd](/sample-files/v2.0/xml-schema.xsd)
 
 ### Version 1.0 Examples and Schema
 In the `v1.0` directory, find the following sample files:
