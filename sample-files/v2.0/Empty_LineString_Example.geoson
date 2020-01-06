@@ -1,1 +1,65 @@
-z
+{
+  "road_event_feed_info": {
+    "feed_info_id": "",
+    "feed_update_date": "",
+    "metadata": "A URL to a metadata files",
+    "version": 2.0
+  },
+  "type": "FeatureCollection",
+  "features": [{
+        "type": "Feature",
+      	"properties": {
+      	"road_event_id": "",
+      	"feed_info_id": "",
+        "subidentifier": "",
+        "road_name": "",
+        "road_number": "",
+        "direction": "",
+        "beginning_cross_street": "",
+        "ending_cross_street": "",
+        "beginning_milepost": ,
+        "ending_milepost": ,
+        "beginning_accuracy": "",
+        "ending_accuracy": "",
+        "start_date": "",
+        "end_date": "",
+        "start_date_accuracy": "",
+        "end_date_accuracy": "",
+        "event_status": "",
+        "total_num_lanes": ,
+        "vehicle_impact": "",
+        "workers_present": ,
+        "reduced_speed_limit": ,
+        "restrictions": "",
+        "description": "",
+        "issuing_organization": "",
+        "creation_date": "",
+        "update_date": "",
+        "types_of_work": [
+            {"type_name": "", "is_architectual_change": },
+          	{"type_name": "", "is_architectual_change": }
+        ],
+        "lanes": [[
+        {"lane_edge_reference":"", "lane_number":"", "lane_status":"", "lane_type":"", 
+	 	    "lane_restrictions":[[
+			    {"restriction_type":"", "restriction_value":"", "restriction_units":""},
+			    {"restriction_type":"", "restriction_value":"", "restriction_units":""}
+			    ]]},
+	      {"lane_edge_reference":"", "lane_number":"", "lane_status":"", "lane_type":""},
+	      {"lane_edge_reference":"", "lane_number":"", "lane_status":"", "lane_type":""}
+	      ]]
+  },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            ,
+          ],
+          [
+            ,
+          ]
+        ]
+      }
+    }
+  ]
+}
